@@ -1,0 +1,315 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 100px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+.nav-list {
+  width: 50%;
+  /* background-color: greenyellow; */
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 26px 30px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+.rightNav {
+  /* background-color: chartreuse; */
+  width: 50%;
+  text-align: right;
+  padding: 0 23px;
+}
+
+#search {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url("../images/build.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.firstSection {
+  height: 100vh;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 50%;
+  margin: auto;
+  height: 66%;
+}
+
+.firstHalf {
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondHalf {
+  width: 33%;
+}
+
+.secondHalf img {
+  /* width: 225px;
+  height: 225px; */
+  width: 200px;
+  height: 200px;
+  padding: 4px;
+  border: 4px solid white;
+  border-radius: 170px;
+}
+
+.text-big {
+  font-size: 41px;
+}
+
+.text-small {
+  font-size: 18px;
+}
+
+.btn {
+  padding: 4px 20px;
+  margin: 8px 3px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.btn1 {
+  padding: 4px 20px;
+  margin: 8px 3px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.btn-sm {
+  padding: 6px 10px;
+  vertical-align: middle;
+}
+
+.section {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80%;
+  padding: 50px;
+  margin: auto;
+}
+
+.sec-left {
+  flex-direction: row-reverse;
+}
+
+.paras {
+  padding: 20px 65px;
+}
+
+.sectionSubTag {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgFluid {
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-top: 19;
+}
+
+.img {
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-top: 19;
+}
+
+.imgfig {
+  border-radius: 160px;
+  border: 2px solid black;
+  margin-top: 19;
+}
+
+.sectionUTag {
+  font-size: 50px;
+}
+
+.wrapper {
+  display: inline-flex;
+}
+
+.wrapper .static-txt {
+  font-size: 89.89px;
+  font-weight: 400;
+}
+
+.wrapper .txts {
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+
+.txts li {
+  color: #fc6d6d;
+  list-style: none;
+  font-size: 80px;
+  font-weight: 500;
+  list-style: none;
+  top: 0;
+  position: relative;
+  animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+
+.txts li span {
+  position: relative;
+}
+
+.txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-left: 2px solid #fc6d6d;
+  animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+}
+
+.main {
+  border-radius: 20px;
+}
+
+.sec {
+  padding: 80px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.help {
+  padding: 80px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sectionTag text-big{
+  display: block;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sectionTag{
+  padding: 16px 0;
+}
+
+.contact{
+  background-color: #f6f5f4;
+  height: 533px;
+}
+
+.text-center{
+  text-align: center;
+  padding: 30px;
+  font-family: 'Ubantu', sans-serif;
+  font-size: 35px;
+}
+
+.form{
+  max-width: 500px;
+  margin: 42px auto;
+}
+
+.form input{
+  margin: 14px 0;
+  width: 100%;
+  padding: 5px 3px ;
+  border: 2px solid grey;
+  border-radius: 2px;
+  font-size: 19px;
+}
+
+.nam{
+ width: 10px;
+}
+
+.btn-dark{
+  color: black;
+  border: 2px solid black;
+}
+
+.text-footer{
+  font-co
+  text-align: center;
+  padding: 30px 0;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+}
